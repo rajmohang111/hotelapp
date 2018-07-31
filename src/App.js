@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Search from './Search';
 import { connect } from 'react-redux';
-import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
 
 class App extends Component {
   render() {

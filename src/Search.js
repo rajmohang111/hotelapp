@@ -74,6 +74,11 @@ class Search extends Component {
         }
 
         this.props.dispatch({
+            type: 'SET_PARAM',
+            data: filter
+        })
+
+        this.props.dispatch({
             type: 'SEARCH_HOTELS',
             data: filter,
             masterData: this.state.hotels
